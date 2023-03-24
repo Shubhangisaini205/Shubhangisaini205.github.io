@@ -70,7 +70,7 @@ function NavBar() {
 
                 to="/contact"
                 id="contact"
-                className="nav-link nav-link projects"
+                className="nav-link nav-link contact"
                 onClick={click ? handleClick : null}
               >
                 Contact

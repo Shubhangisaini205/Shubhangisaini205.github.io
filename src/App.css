@@ -109,16 +109,15 @@
   padding-top: 10%;
 }
 
-/* .tech-stack-icon{
+.skills-card{
   transition: 1s ease;
-}
-
-.tech-stack-icon:hover{
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  transition: 1s ease;
-} */
+ }
+ .skills-card:hover{
+ -webkit-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+ transform: scale(1.1);
+ transition: 1s ease;
+ }
 
 .tech-skill-heading {
   transition: 1s ease;
