@@ -38,7 +38,7 @@ function Home() {
             mt={"20px"}
             fontSize={"3xl"}
             id="user-detail-intro">
-            A Passionate Full Stack Developer who loves building projects and work in a team.
+            A Passionate Full Stack Developer who loves tech and  building projects and work in a team.
           </Text>
           <Center>
             <Flex mt={"20px"}>

@@ -139,7 +139,7 @@ import { SiCss3, SiHtml5, SiJavascript, SiReact, SiRedux } from "react-icons/si"
 
 export default function Projects() {
   return (
-    <Box className='nav-link projects'>
+    <Box>
 
     <Heading
     mt={10}

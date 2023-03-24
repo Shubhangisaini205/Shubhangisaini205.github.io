@@ -26,7 +26,7 @@ function NavBar() {
               <NavLink
                 to="/"
                 id="home"
-                className="nav-link nav-link home"
+                className="nav-link home"
                 onClick={click ? handleClick : null}
               >
                 Home
@@ -37,7 +37,7 @@ function NavBar() {
 
                 to="/about"
                 id="about"
-                className="nav-link nav-link about"
+                className="nav-link about"
                 onClick={click ? handleClick : null}
               >
                 About
@@ -48,7 +48,7 @@ function NavBar() {
 
                 to="/skills"
                 id="skills"
-                className="nav-link nav-link skills"
+                className="nav-link skills"
                 onClick={click ? handleClick : null}
               >
                 Skills
@@ -59,7 +59,7 @@ function NavBar() {
 
                 to="/projects"
                 id="projects"
-                className="nav-link nav-link projects"
+                className="projects"
                 onClick={click ? handleClick : null}
               >
                 Projects
@@ -70,7 +70,7 @@ function NavBar() {
 
                 to="/contact"
                 id="contact"
-                className="nav-link nav-link contact"
+                className="nav-link contact"
                 onClick={click ? handleClick : null}
               >
                 Contact
@@ -81,7 +81,7 @@ function NavBar() {
 
                 
               
-                className="nav-link nav-link resume"
+                className="nav-link resume"
                 onClick={click ? handleClick : null}
               >
                 Resume
