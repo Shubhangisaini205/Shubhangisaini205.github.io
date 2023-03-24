@@ -1,0 +1,18 @@
+.home-main{
+    display:flex;
+}
+.home-main img{
+ border-radius: 50%;
+}
+
+
+@media (min-width: 481px) and (max-width:768px){
+    .home-main{
+      flex-direction: column;
+    }
+}
+@media (max-width:480px){
+    .home-main{
+      flex-direction: column-reverse;
+    }
+}

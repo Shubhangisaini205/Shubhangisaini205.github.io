@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .myphoto{
+  transition: 1s ease;
+ }
+ .myphoto:hover{
+ -webkit-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+ transform: scale(1.1);
+ transition: 1s ease;
+ }
+
+#chakra {
+  box-shadow: #15dfbe 0px 19px 38px, #15dfbe 0px 15px 12px;
+  border-radius: 10%;
+  padding-top: 10%;
+
+}
+
+#html {
+  box-shadow: #eb724a 0px 19px 38px, #ef8967 0px 15px 12px;
+  border-radius: 10%;
+  padding-top: 10%;
+}
+
+#css {
+  box-shadow: #2196f3 0px 19px 38px, #2196f3 0px 15px 12px;
+  border-radius: 10%;
+  padding-top: 10%;
+}
+
+#js {
+  box-shadow: #f1e17d 0px 19px 38px, #efe5a7 0px 15px 12px;
+  border-radius: 10%;
+  padding-top: 10%;
+}
+
+#next {
+  box-shadow: #5c5353 0px 19px 38px, #79cae1 0px 15px 12px;
+  border-radius: 10%;
+  padding-top: 10%;
+}
+
+#github {
+  box-shadow: #5c5353 0px 19px 38px, #79cae1 0px 15px 12px;
+  border-radius: 10%;
+  padding-top: 10%;
+}
+
+#npm {
+  box-shadow: #cc3534 0px 19px 38px, #cc3534 0px 15px 12px;
+  border-radius: 10%;
+  padding-top: 10%;
+}
+
+#redux {
+  box-shadow: #8567b6 0px 19px 38px, #a481dd 0px 15px 12px;
+  border-radius: 10%;
+  padding-top: 10%;
+}
+
+#vscode {
+  box-shadow: #5ca4da 0px 19px 38px, #5ca4da 0px 15px 12px;
+  border-radius: 10%;
+  padding-top: 10%;
+}
+
+#react {
+  box-shadow: #42cff7 0px 19px 38px, #79cae1 0px 15px 12px;
+  border-radius: 10%;
+  padding-top: 10%;
+}
+
+.tech-stack-icon {
+  transition: 1s ease;
+}
+
+.tech-stack-icon:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.tech-skill-heading {
+  transition: 1s ease;
+}
+
+.tech-skill-heading:hover {
+  background: linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%);
+  color: white;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+
+
+/* Project */
+.project-tech-stacks {
+  transition: 1s ease;
+}
+.project-tech-stacks:hover{
+   cursor: pointer;
+   -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
