@@ -13,7 +13,7 @@ function Home() {
 },[])
 
   return (
-    <Box className='nav-link home'>
+    <Box >
       <Flex
         className='home-main'
         flexDirection={{ base: "column", sm: "colomn", md: "column", lg: "row" }}

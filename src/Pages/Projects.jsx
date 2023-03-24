@@ -203,7 +203,7 @@ export default function Projects() {
               fontFamily={'body'}>
               An E-Commerce Website
             </Heading>
-            <Text color={'gray.500'}>
+            <Text color={'gray.500'} className="project-description">
               MyGlamm is an  E-commerce site. This is a shopping website of cosmetic products belongs to women such as makeup product, lipstick, eyeliner, sunscreen ans many more.
             </Text>
 
@@ -295,14 +295,15 @@ data-aos="zoom-in"
           </Center>
         </Box>
         <Box
-          boxShadow={"#618690 0px 19px 38px"}
+         boxShadow={"#618690 0px 19px 38px"}
           maxW={'445px'}
           w={'full'}
           bg={useColorModeValue('white', 'gray.900')}
 
           rounded={'md'}
           p={6}
-          overflow={'hidden'}>
+          overflow={'hidden'}
+          className="project-card" >
           <Box
             h={'210px'}
 
@@ -328,8 +329,10 @@ data-aos="zoom-in"
               textTransform={'uppercase'}
               fontWeight={800}
               fontSize={'lg'}
-              letterSpacing={1.1}>
+              letterSpacing={1.1}
+              className="project-title">
               MyGlamm (Clone)
+              
             </Text>
             <Heading
               color={useColorModeValue('gray.700', 'white')}
@@ -337,7 +340,7 @@ data-aos="zoom-in"
               fontFamily={'body'}>
               An E-Commerce Website
             </Heading>
-            <Text color={'gray.500'}>
+            <Text color={'gray.500'} className="project-description">
               MyGlamm is an  E-commerce site. This is a shopping website of cosmetic products belongs to women such as makeup product, lipstick, eyeliner, sunscreen ans many more.
             </Text>
 
@@ -349,6 +352,7 @@ data-aos="zoom-in"
               spacing={3}
               px={5}
               alignItems="flex-start"
+              className="project-tech-stack"
             >
 
               <IconButton
@@ -406,7 +410,8 @@ data-aos="zoom-in"
                 colorScheme={'red'}
                 bgGradient='linear(to-r, #25cefd, #f14d9f)'
 
-                _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}>
+                _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
+                className="project-github-link">
                 CODE
               </Button>
               <Button
@@ -419,7 +424,7 @@ data-aos="zoom-in"
                 bgGradient='linear(to-r, #25cefd, #f14d9f)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
-              >
+                className="project-deployed-link" >
                 LIVE
               </Button>
 
@@ -427,14 +432,15 @@ data-aos="zoom-in"
           </Center>
         </Box>
         <Box
-  boxShadow={"#618690 0px 19px 38px"}
+         boxShadow={"#618690 0px 19px 38px"}
           maxW={'445px'}
           w={'full'}
           bg={useColorModeValue('white', 'gray.900')}
 
           rounded={'md'}
           p={6}
-          overflow={'hidden'}>
+          overflow={'hidden'}
+          className="project-card" >
           <Box
             h={'210px'}
 
@@ -460,8 +466,10 @@ data-aos="zoom-in"
               textTransform={'uppercase'}
               fontWeight={800}
               fontSize={'lg'}
-              letterSpacing={1.1}>
+              letterSpacing={1.1}
+              className="project-title">
               MyGlamm (Clone)
+              
             </Text>
             <Heading
               color={useColorModeValue('gray.700', 'white')}
@@ -469,7 +477,7 @@ data-aos="zoom-in"
               fontFamily={'body'}>
               An E-Commerce Website
             </Heading>
-            <Text color={'gray.500'}>
+            <Text color={'gray.500'} className="project-description">
               MyGlamm is an  E-commerce site. This is a shopping website of cosmetic products belongs to women such as makeup product, lipstick, eyeliner, sunscreen ans many more.
             </Text>
 
@@ -481,6 +489,7 @@ data-aos="zoom-in"
               spacing={3}
               px={5}
               alignItems="flex-start"
+              className="project-tech-stack"
             >
 
               <IconButton
@@ -538,7 +547,8 @@ data-aos="zoom-in"
                 colorScheme={'red'}
                 bgGradient='linear(to-r, #25cefd, #f14d9f)'
 
-                _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}>
+                _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
+                className="project-github-link">
                 CODE
               </Button>
               <Button
@@ -551,7 +561,7 @@ data-aos="zoom-in"
                 bgGradient='linear(to-r, #25cefd, #f14d9f)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
-              >
+                className="project-deployed-link" >
                 LIVE
               </Button>
 
@@ -559,14 +569,15 @@ data-aos="zoom-in"
           </Center>
         </Box>
         <Box
-           boxShadow={"#618690 0px 19px 38px"}
+         boxShadow={"#618690 0px 19px 38px"}
           maxW={'445px'}
           w={'full'}
           bg={useColorModeValue('white', 'gray.900')}
 
           rounded={'md'}
           p={6}
-          overflow={'hidden'}>
+          overflow={'hidden'}
+          className="project-card" >
           <Box
             h={'210px'}
 
@@ -592,8 +603,10 @@ data-aos="zoom-in"
               textTransform={'uppercase'}
               fontWeight={800}
               fontSize={'lg'}
-              letterSpacing={1.1}>
+              letterSpacing={1.1}
+              className="project-title">
               MyGlamm (Clone)
+              
             </Text>
             <Heading
               color={useColorModeValue('gray.700', 'white')}
@@ -601,7 +614,7 @@ data-aos="zoom-in"
               fontFamily={'body'}>
               An E-Commerce Website
             </Heading>
-            <Text color={'gray.500'}>
+            <Text color={'gray.500'} className="project-description">
               MyGlamm is an  E-commerce site. This is a shopping website of cosmetic products belongs to women such as makeup product, lipstick, eyeliner, sunscreen ans many more.
             </Text>
 
@@ -613,6 +626,7 @@ data-aos="zoom-in"
               spacing={3}
               px={5}
               alignItems="flex-start"
+              className="project-tech-stack"
             >
 
               <IconButton
@@ -670,7 +684,8 @@ data-aos="zoom-in"
                 colorScheme={'red'}
                 bgGradient='linear(to-r, #25cefd, #f14d9f)'
 
-                _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}>
+                _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
+                className="project-github-link">
                 CODE
               </Button>
               <Button
@@ -683,13 +698,14 @@ data-aos="zoom-in"
                 bgGradient='linear(to-r, #25cefd, #f14d9f)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
-              >
+                className="project-deployed-link" >
                 LIVE
               </Button>
 
             </Stack>
           </Center>
         </Box>
+      
         
 
 

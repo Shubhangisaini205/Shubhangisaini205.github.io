@@ -64,7 +64,7 @@
     margin-right: 2rem;
   }
   
-  .nav-links {
+  .nav-link{
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -131,7 +131,7 @@
       color: #25cefd;
       border: none;
     }
-    .nav-links {
+    .nav-link {
       padding: 1.5rem;
       width: 100%;
       display: table;
