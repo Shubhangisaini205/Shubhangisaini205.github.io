@@ -16,3 +16,14 @@
       flex-direction: column-reverse;
     }
 }
+
+
+.home-icon{
+  transition: 1s ease;
+ }
+ .home-icon:hover{
+ -webkit-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+ transform: scale(1.1);
+ transition: 1s ease;
+ }

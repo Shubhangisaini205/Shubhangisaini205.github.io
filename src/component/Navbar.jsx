@@ -59,7 +59,7 @@ function NavBar() {
 
                 to="/projects"
                 id="projects"
-                className="projects"
+                className="nav-link projects"
                 onClick={click ? handleClick : null}
               >
                 Projects

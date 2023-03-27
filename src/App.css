@@ -1,8 +1,14 @@
 .App {
   text-align: center;
+  background-color: rgb(12, 12, 12);
+ 
   
+
 }
 
+body{
+  background-color: rgb(12, 12, 12);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -42,6 +48,15 @@
   transition: 1s ease;
  }
  .myphoto:hover{
+ -webkit-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+ transform: scale(1.1);
+ transition: 1s ease;
+ }
+ .home-icon{
+  transition: 1s ease;
+ }
+ .home-icon:hover{
  -webkit-transform: scale(1.2);
  -ms-transform: scale(1.2);
  transform: scale(1.1);
@@ -132,6 +147,7 @@
 
 
 
+
 /* Project */
 .project-tech-stacks {
   transition: 1s ease;
@@ -142,4 +158,18 @@
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 1s ease;
+}
+.project-image {
+  transition: 1s ease;
+}
+.project-image:hover{
+   cursor: pointer;
+   -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+.aboutme{
+background-color: rgb(12, 12, 12);
 }

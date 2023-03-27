@@ -40,63 +40,63 @@ function Skills() {
         <Box
            width="60%" id='chakra' data-aos="fade-up">
           <Image width="60%" src={chakra} margin="auto" className="skills-card-img"></Image>
-          <Heading fontSize={"1.2rem"} color={"gray.700"}  className="skills-card-name">Chakra</Heading>
+          <Heading fontSize={"1.2rem"} color={"gray"}  className="skills-card-name">Chakra</Heading>
         </Box>
         </Box>
         
         <Box className='skills-card'>
         <Box width="60%" id='css' data-aos="fade-up">
           <Image width="60%" src={css} margin="auto" className="skills-card-img"></Image>
-          <Heading fontSize={"1.2rem"} color={"gray.700"} className="skills-card-name">CSS</Heading>
+          <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">CSS</Heading>
         </Box>
         </Box>
 
         <Box className='skills-card'>
         <Box id='html' width="60%" data-aos="fade-up">
           <Image width="60%" src={html1} margin="auto" className="skills-card-img"></Image>
-          <Heading fontSize={"1.2rem"} color={"gray.700"} className="skills-card-name">HTML</Heading>
+          <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">HTML</Heading>
         </Box>
         </Box>
 
         <Box className='skills-card'>
         <Box  width="60%" id='js' data-aos="fade-up">
           <Image width="60%" src={js} margin="auto" className="skills-card-img"></Image>
-          <Heading fontSize={"1.2rem"} color={"gray.700"} className="skills-card-name">JS</Heading>
+          <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">JS</Heading>
         </Box>
         </Box>
 
         <Box className='skills-card'>
         <Box  width="60%" id='redux' data-aos="fade-up">
           <Image width="60%" src={redux} margin="auto" className="skills-card-img"></Image>
-          <Heading fontSize={"1.2rem"} color={"gray.700"} className="skills-card-name">Redux</Heading>
+          <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">Redux</Heading>
         </Box>
         </Box>
 
         <Box className='skills-card'>
         <Box  width="60%" id='vscode' data-aos="fade-up">
           <Image width="60%" src={react} margin="auto" className="skills-card-img"></Image>
-          <Heading fontSize={"1.2rem"} color={"gray.700"} className="skills-card-name">React</Heading>
+          <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">React</Heading>
         </Box>
         </Box>
 
         <Box className='skills-card'>
         <Box  width="60%" id='github' data-aos="fade-up">
           <Image width="60%" src={github} margin="auto" className="skills-card-img"></Image>
-          <Heading fontSize={"1.2rem"} color={"gray.700"} className="skills-card-name">Github</Heading>
+          <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">Github</Heading>
         </Box>
         </Box>
 
         <Box className='skills-card'>
         <Box width="60%" id='npm' data-aos="fade-up">
           <Image width="60%" src={npm} margin="auto" className="skills-card-img"></Image>
-          <Heading fontSize={"1.2rem"} color={"gray.700"} className="skills-card-name">NPM</Heading>
+          <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">NPM</Heading>
         </Box>
         </Box>
 
         <Box className='skills-card'>
         <Box width="60%" id='vscode' data-aos="fade-up">
           <Image width="60%" src={vscode} margin="auto" className="skills-card-img"></Image>
-          <Heading fontSize={"1.2rem"} color={"gray.700"} className="skills-card-name">VSCode</Heading>
+          <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">VSCode</Heading>
         </Box>
         </Box>
       </Grid>

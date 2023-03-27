@@ -135,6 +135,7 @@ import {
 } from '@chakra-ui/react';
 import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
 import { SiCss3, SiHtml5, SiJavascript, SiReact, SiRedux } from "react-icons/si"
+import Myglamm from "../Assests/Myglamm.png"
 
 
 export default function Projects() {
@@ -162,7 +163,8 @@ export default function Projects() {
           maxW={'445px'}
           w={'full'}
           bg={useColorModeValue('white', 'gray.900')}
-
+          bgGradient='linear(to-r, rgb(34, 148, 148), rgb(31, 182, 228))'
+           
           rounded={'md'}
           p={6}
           overflow={'hidden'}
@@ -180,30 +182,32 @@ export default function Projects() {
               p={4}
               borderRadius="40px"
               src={
-                'https://tse2.mm.bing.net/th?id=OIP.aVd8ZpjYzIiuuAogFGBvWQHaEK&pid=Api&P=0'
+                Myglamm
               }
               layout={'fill'}
+              className="project-image"
+              
             />
           </Box>
           <Stack>
             <Text
               mt={5}
-              color={'green.500'}
+              color={'pink'}
               textTransform={'uppercase'}
               fontWeight={800}
-              fontSize={'lg'}
+              fontSize={"2xl"}
               letterSpacing={1.1}
               className="project-title">
               MyGlamm (Clone)
               
             </Text>
             <Heading
-              color={useColorModeValue('gray.700', 'white')}
+              color={useColorModeValue('black', 'white')}
               fontSize={'2xl'}
               fontFamily={'body'}>
               An E-Commerce Website
             </Heading>
-            <Text color={'gray.500'} className="project-description">
+            <Text fontWeight={"bold"} className="project-description">
               MyGlamm is an  E-commerce site. This is a shopping website of cosmetic products belongs to women such as makeup product, lipstick, eyeliner, sunscreen ans many more.
             </Text>
 
@@ -271,7 +275,7 @@ data-aos="zoom-in"
                 fontWeight={'normal'}
                 px={5}
                 colorScheme={'red'}
-                bgGradient='linear(to-r, #25cefd, #f14d9f)'
+                bgGradient='linear(to-r, #101212, #1c1a1b)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
                 className="project-github-link">
@@ -284,7 +288,7 @@ data-aos="zoom-in"
                 fontWeight={'normal'}
                 px={5}
                 colorScheme={'red'}
-                bgGradient='linear(to-r, #25cefd, #f14d9f)'
+                bgGradient='linear(to-r, #101212, #1c1a1b)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
                 className="project-deployed-link" >
@@ -299,7 +303,8 @@ data-aos="zoom-in"
           maxW={'445px'}
           w={'full'}
           bg={useColorModeValue('white', 'gray.900')}
-
+          bgGradient='linear(to-r, rgb(34, 148, 148), rgb(31, 182, 228))'
+           
           rounded={'md'}
           p={6}
           overflow={'hidden'}
@@ -317,30 +322,32 @@ data-aos="zoom-in"
               p={4}
               borderRadius="40px"
               src={
-                'https://tse2.mm.bing.net/th?id=OIP.aVd8ZpjYzIiuuAogFGBvWQHaEK&pid=Api&P=0'
+                Myglamm
               }
               layout={'fill'}
+              className="project-image"
+              
             />
           </Box>
           <Stack>
             <Text
               mt={5}
-              color={'green.500'}
+              color={'pink'}
               textTransform={'uppercase'}
               fontWeight={800}
-              fontSize={'lg'}
+              fontSize={"2xl"}
               letterSpacing={1.1}
               className="project-title">
               MyGlamm (Clone)
               
             </Text>
             <Heading
-              color={useColorModeValue('gray.700', 'white')}
+              color={useColorModeValue('black', 'white')}
               fontSize={'2xl'}
               fontFamily={'body'}>
               An E-Commerce Website
             </Heading>
-            <Text color={'gray.500'} className="project-description">
+            <Text fontWeight={"bold"} className="project-description">
               MyGlamm is an  E-commerce site. This is a shopping website of cosmetic products belongs to women such as makeup product, lipstick, eyeliner, sunscreen ans many more.
             </Text>
 
@@ -408,7 +415,7 @@ data-aos="zoom-in"
                 fontWeight={'normal'}
                 px={5}
                 colorScheme={'red'}
-                bgGradient='linear(to-r, #25cefd, #f14d9f)'
+                bgGradient='linear(to-r, #101212, #1c1a1b)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
                 className="project-github-link">
@@ -421,7 +428,7 @@ data-aos="zoom-in"
                 fontWeight={'normal'}
                 px={5}
                 colorScheme={'red'}
-                bgGradient='linear(to-r, #25cefd, #f14d9f)'
+                bgGradient='linear(to-r, #101212, #1c1a1b)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
                 className="project-deployed-link" >
@@ -436,7 +443,8 @@ data-aos="zoom-in"
           maxW={'445px'}
           w={'full'}
           bg={useColorModeValue('white', 'gray.900')}
-
+          bgGradient='linear(to-r, rgb(34, 148, 148), rgb(31, 182, 228))'
+           
           rounded={'md'}
           p={6}
           overflow={'hidden'}
@@ -454,30 +462,32 @@ data-aos="zoom-in"
               p={4}
               borderRadius="40px"
               src={
-                'https://tse2.mm.bing.net/th?id=OIP.aVd8ZpjYzIiuuAogFGBvWQHaEK&pid=Api&P=0'
+                Myglamm
               }
               layout={'fill'}
+              className="project-image"
+              
             />
           </Box>
           <Stack>
             <Text
               mt={5}
-              color={'green.500'}
+              color={'pink'}
               textTransform={'uppercase'}
               fontWeight={800}
-              fontSize={'lg'}
+              fontSize={"2xl"}
               letterSpacing={1.1}
               className="project-title">
               MyGlamm (Clone)
               
             </Text>
             <Heading
-              color={useColorModeValue('gray.700', 'white')}
+              color={useColorModeValue('black', 'white')}
               fontSize={'2xl'}
               fontFamily={'body'}>
               An E-Commerce Website
             </Heading>
-            <Text color={'gray.500'} className="project-description">
+            <Text fontWeight={"bold"} className="project-description">
               MyGlamm is an  E-commerce site. This is a shopping website of cosmetic products belongs to women such as makeup product, lipstick, eyeliner, sunscreen ans many more.
             </Text>
 
@@ -545,7 +555,7 @@ data-aos="zoom-in"
                 fontWeight={'normal'}
                 px={5}
                 colorScheme={'red'}
-                bgGradient='linear(to-r, #25cefd, #f14d9f)'
+                bgGradient='linear(to-r, #101212, #1c1a1b)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
                 className="project-github-link">
@@ -558,7 +568,7 @@ data-aos="zoom-in"
                 fontWeight={'normal'}
                 px={5}
                 colorScheme={'red'}
-                bgGradient='linear(to-r, #25cefd, #f14d9f)'
+                bgGradient='linear(to-r, #101212, #1c1a1b)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
                 className="project-deployed-link" >
@@ -573,7 +583,8 @@ data-aos="zoom-in"
           maxW={'445px'}
           w={'full'}
           bg={useColorModeValue('white', 'gray.900')}
-
+          bgGradient='linear(to-r, rgb(34, 148, 148), rgb(31, 182, 228))'
+           
           rounded={'md'}
           p={6}
           overflow={'hidden'}
@@ -591,30 +602,32 @@ data-aos="zoom-in"
               p={4}
               borderRadius="40px"
               src={
-                'https://tse2.mm.bing.net/th?id=OIP.aVd8ZpjYzIiuuAogFGBvWQHaEK&pid=Api&P=0'
+                Myglamm
               }
               layout={'fill'}
+              className="project-image"
+              
             />
           </Box>
           <Stack>
             <Text
               mt={5}
-              color={'green.500'}
+              color={'pink'}
               textTransform={'uppercase'}
               fontWeight={800}
-              fontSize={'lg'}
+              fontSize={"2xl"}
               letterSpacing={1.1}
               className="project-title">
               MyGlamm (Clone)
               
             </Text>
             <Heading
-              color={useColorModeValue('gray.700', 'white')}
+              color={useColorModeValue('black', 'white')}
               fontSize={'2xl'}
               fontFamily={'body'}>
               An E-Commerce Website
             </Heading>
-            <Text color={'gray.500'} className="project-description">
+            <Text fontWeight={"bold"} className="project-description">
               MyGlamm is an  E-commerce site. This is a shopping website of cosmetic products belongs to women such as makeup product, lipstick, eyeliner, sunscreen ans many more.
             </Text>
 
@@ -682,7 +695,7 @@ data-aos="zoom-in"
                 fontWeight={'normal'}
                 px={5}
                 colorScheme={'red'}
-                bgGradient='linear(to-r, #25cefd, #f14d9f)'
+                bgGradient='linear(to-r, #101212, #1c1a1b)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
                 className="project-github-link">
@@ -695,7 +708,7 @@ data-aos="zoom-in"
                 fontWeight={'normal'}
                 px={5}
                 colorScheme={'red'}
-                bgGradient='linear(to-r, #25cefd, #f14d9f)'
+                bgGradient='linear(to-r, #101212, #1c1a1b)'
 
                 _hover={{ bg: "linear-gradient(90deg, rgb(56, 56, 57) 0%, rgb(31, 182, 228) 100%)" }}
                 className="project-deployed-link" >
@@ -705,6 +718,7 @@ data-aos="zoom-in"
             </Stack>
           </Center>
         </Box>
+       
       
         
 
