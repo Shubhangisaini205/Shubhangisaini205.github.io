@@ -3,10 +3,13 @@ import React, { useEffect } from 'react'
 import { GoMarkGithub } from "react-icons/go";
 import MyPhoto from "../Assests/MyPhoto.jpg"
 import Skills from './Skills';
-import AOS from "aos"
-import "aos/dist/aos.css"
+
 import Projects from './Projects';
 import About from './About';
+import Contact from './Contact';
+import AOS from "aos"
+import "aos/dist/aos.css"
+
 
 function Home() {
   useEffect(() => {
@@ -15,6 +18,7 @@ function Home() {
 
   return (
     <Box >
+     
       <Flex
         className='home-main'
         flexDirection={{ base: "column", sm: "colomn", md: "column", lg: "row" }}
@@ -139,6 +143,7 @@ function Home() {
           </Box>
         </Flex>
       </Box>
+      <Contact/>
 
     </Box>
   )

@@ -1,8 +1,8 @@
 .App {
   text-align: center;
   background-color: rgb(12, 12, 12);
- 
   
+
 
 }
 
@@ -124,7 +124,7 @@ body{
   padding-top: 10%;
 }
 
-.skills-card{
+/* .skills-card{
   transition: 1s ease;
  }
  .skills-card:hover{
@@ -132,7 +132,7 @@ body{
  -ms-transform: scale(1.2);
  transform: scale(1.1);
  transition: 1s ease;
- }
+ } */
 
 .tech-skill-heading {
   transition: 1s ease;
@@ -173,3 +173,5 @@ body{
 .aboutme{
 background-color: rgb(12, 12, 12);
 }
+
+/* contct */

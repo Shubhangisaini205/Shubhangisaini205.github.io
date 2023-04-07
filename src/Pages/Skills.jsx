@@ -18,7 +18,7 @@ function Skills() {
     AOS.init({delay:300});
 },[])
   return (
-    <Box margin="50px auto" width="80%" >
+    <Box margin="50px auto" width="80%" className='skills-card' >
       <Heading
         display={"inline-block"}
         padding="10px"
@@ -36,69 +36,69 @@ function Skills() {
         margin="50px auto"
         alignItems={{ base: "center", sm: "center", md: "center" }}
         marginLeft="10%" >
-        <Box >
+       
         <Box
-           width="60%" id='chakra' data-aos="fade-up" className='skills-card'>
+           width="60%" className='skills-card'  id='chakra' data-aos="fade-up" >
           <Image width="60%" src={chakra} margin="auto" className="skills-card-img"></Image>
           <Heading fontSize={"1.2rem"} color={"gray"}  className="skills-card-name">Chakra</Heading>
         </Box>
-        </Box>
+      
         
-        <Box >
-        <Box width="60%" id='css' data-aos="fade-up" className='skills-card'>
+        
+        <Box width="60%" className='skills-card'  id='css' data-aos="fade-up" >
           <Image width="60%" src={css} margin="auto" className="skills-card-img"></Image>
           <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">CSS</Heading>
         </Box>
-        </Box>
+        
 
-        <Box >
-        <Box id='html' width="60%" data-aos="fade-up" className='skills-card'>
+        
+        <Box id='html' className='skills-card'  width="60%" data-aos="fade-up" >
           <Image width="60%" src={html1} margin="auto" className="skills-card-img"></Image>
           <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">HTML</Heading>
         </Box>
-        </Box>
+        
 
-        <Box >
-        <Box  width="60%" id='js' data-aos="fade-up" className='skills-card'>
+        
+        <Box  width="60%" className='skills-card'  id='js' data-aos="fade-up" >
           <Image width="60%" src={js} margin="auto" className="skills-card-img"></Image>
           <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">JS</Heading>
         </Box>
-        </Box>
+       
 
-        <Box >
-        <Box  width="60%" id='redux' data-aos="fade-up" className='skills-card'>
+        
+        <Box  width="60%" className='skills-card' id='redux' data-aos="fade-up" >
           <Image width="60%" src={redux} margin="auto" className="skills-card-img"></Image>
           <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">Redux</Heading>
         </Box>
-        </Box>
+        
 
-        <Box >
-        <Box  width="60%" id='vscode' data-aos="fade-up" className='skills-card'>
+       
+        <Box  width="60%" className='skills-card'  id='vscode' data-aos="fade-up" >
           <Image width="60%" src={react} margin="auto" className="skills-card-img"></Image>
           <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">React</Heading>
         </Box>
-        </Box>
+       
 
-        <Box >
-        <Box  width="60%" id='github' data-aos="fade-up" className='skills-card'>
+        
+        <Box  width="60%" className='skills-card' id='github' data-aos="fade-up" >
           <Image width="60%" src={github} margin="auto" className="skills-card-img"></Image>
           <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">Github</Heading>
         </Box>
-        </Box>
+      
 
-        <Box >
-        <Box width="60%" id='npm' data-aos="fade-up" className='skills-card'>
+        
+        <Box width="60%" className='skills-card'  id='npm' data-aos="fade-up" >
           <Image width="60%" src={npm} margin="auto" className="skills-card-img"></Image>
           <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">NPM</Heading>
         </Box>
-        </Box>
+        
 
-        <Box >
-        <Box width="60%" id='vscode' data-aos="fade-up" className='skills-card'>
+        
+        <Box width="60%"  className='skills-card' id='vscode' data-aos="fade-up" >
           <Image width="60%" src={vscode} margin="auto" className="skills-card-img"></Image>
           <Heading fontSize={"1.2rem"} color={"gray"} className="skills-card-name">VSCode</Heading>
         </Box>
-        </Box>
+        
       </Grid>
 
 

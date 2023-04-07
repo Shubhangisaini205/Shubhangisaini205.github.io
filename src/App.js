@@ -4,15 +4,18 @@ import AllRoutes from './AllRoutes/AllRoutes';
 import Navbar from './component/Navbar';
 import Home from './Pages/Home';
 import Skills from './Pages/Skills';
+import { Box } from '@chakra-ui/react';
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <AllRoutes/>
-     
-      
-    </div>
+    <Box className="App" fontFamily={"cursive"}>
+      <Navbar />
+      <AllRoutes />
+
+
+
+    </Box>
   );
 }
 
