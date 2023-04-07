@@ -1,11 +1,18 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
 import "../CSS/navbar.css"
+import { Button } from "@chakra-ui/react";
+import MyResume from "../Assests/Shubhangi_Saini_Resume.pdf"
 function NavBar() {
   const [click, setClick] = React.useState(false);
 
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
+
+  function handleResume() {
+    window.open("https://drive.google.com/file/d/1mqHsjYvzlyFezTFl6_4TBeEYGGinXJfv/view?usp=share_link");
+  
+  }
 
   return (
     <div>
@@ -78,13 +85,11 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-
-                
-              
                 className="nav-link resume"
                 onClick={click ? handleClick : null}
-              >
-                Resume
+              >\
+                <Button id="resume-button-1 resume-link-1" onClick={handleResume} border="1px solid white" colorScheme="pink" download="Shubhangi_Saini_Resume"> Resume</Button>
+              
               </NavLink>
             </li>
           </ul>

@@ -1,4 +1,4 @@
-import { Box, Center, Flex, Heading, Image, Link, Spacer, Text, Textarea } from '@chakra-ui/react';
+import { Box, Button, Center, Flex, Heading, Image, Link, Spacer, Text, Textarea } from '@chakra-ui/react';
 import React, { useEffect } from 'react'
 import { GoMarkGithub } from "react-icons/go";
 import MyPhoto from "../Assests/MyPhoto.jpg"
@@ -15,7 +15,10 @@ function Home() {
   useEffect(() => {
     AOS.init({ delay: 300 });
   }, [])
-
+  function handleResume() {
+    window.open("https://drive.google.com/file/d/1mqHsjYvzlyFezTFl6_4TBeEYGGinXJfv/view?usp=share_link");
+  
+  }
   return (
     <Box >
      
@@ -78,6 +81,19 @@ function Home() {
                     <GoMarkGithub size="38px" color="rgb(0 119 183)"
                       _hover={{ color: "black" }} /></Box>
                 </Link>
+              </Box>
+              <Box ml={"10px"} data-aos="zoom-in"   >
+               <Link  href='Shubhangi_Saini_Resume.pdf' download="Shubhangi_Saini_Resume" target='_blank'>
+                  <Box  padding={4}  className="home-icon" id="resume-button-2">
+                  <Button
+                   id= "resume-link-2"
+                    onClick={handleResume} border="1px solid white"
+                     colorScheme="pink" > 
+                     Resume
+                     </Button>
+                     </Box>
+                     </Link>
+             
               </Box>
             </Flex>
           </Center>
