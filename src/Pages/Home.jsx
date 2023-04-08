@@ -1,4 +1,4 @@
-import { Box, Button, Center, Flex, Heading, Image, Link, Spacer, Text, Textarea } from '@chakra-ui/react';
+import { Box, Button, Center, Flex, Heading, Image, Link, Progress, Spacer, Text, Textarea } from '@chakra-ui/react';
 import React, { useEffect } from 'react'
 import { GoMarkGithub } from "react-icons/go";
 import MyPhoto from "../Assests/MyPhoto.jpg"
@@ -17,11 +17,12 @@ function Home() {
   }, [])
   function handleResume() {
     window.open("https://drive.google.com/file/d/1mqHsjYvzlyFezTFl6_4TBeEYGGinXJfv/view?usp=share_link");
-  
+
   }
+  
   return (
-    <Box >
-     
+    <Box height={"100%"}>
+
       <Flex
         className='home-main'
         flexDirection={{ base: "column", sm: "colomn", md: "column", lg: "row" }}
@@ -45,11 +46,7 @@ function Home() {
             fontSize={{ base: "4xl", sm: "5xl", md: "6xl", lg: '6xl' }}
             fontWeight='extrabold'
             id="user-detail-name">
-
-
             SHUBHANGI SAINI
-
-
 
           </Text>
           <Text
@@ -57,43 +54,46 @@ function Home() {
             mt={"20px"}
             fontSize={"4xl"}
             color="#25cefd"
-            id="user-detail-intro">
+          >
             A Passionate Full Stack Developer
           </Text>
           <Center>
-            <Flex mt={"20px"}>
-              <Box mr={"10px"} data-aos="zoom-in"  >
-                <Link
-                  href="https://www.linkedin.com/in/shubhangi-saini/" target="_blank" >
-                  <Box border="3px solid white" padding={4} borderRadius="50%"
-                    _hover={{ backgroundColor: "white" }} className="home-icon">
-                    <Image
+            <Flex mt={"20px"} flexDir={{ base: "column", sm: "column", md: "row", lg: "row" }}>
+              <Flex>
+                <Box mr={"10px"} data-aos="zoom-in"  >
+                  <Link
+                    href="https://www.linkedin.com/in/shubhangi-saini/" target="_blank" >
+                    <Box border="3px solid white" padding={4} borderRadius="50%"
+                      _hover={{ backgroundColor: "white" }} className="home-icon">
+                      <Image
 
-                      src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="38px" alt="" /></Box>
-                </Link>
-              </Box>
+                        src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="38px" alt="" /></Box>
+                  </Link>
+                </Box>
 
+                <Box ml={"10px"} data-aos="zoom-in"   >
+                  <Link
+
+                    href="https://github.com/Shubhangisaini205" target="_blank" >
+                    <Box border="3px solid white" padding={4} borderRadius="50%" _hover={{ backgroundColor: "white" }} className="home-icon">
+                      <GoMarkGithub size="38px" color="rgb(0 119 183)"
+                        _hover={{ color: "black" }} /></Box>
+                  </Link>
+                </Box>
+
+              </Flex>
               <Box ml={"10px"} data-aos="zoom-in"   >
-                <Link
-
-                  href="https://github.com/Shubhangisaini205" target="_blank" >
-                  <Box border="3px solid white" padding={4} borderRadius="50%" _hover={{ backgroundColor: "white" }} className="home-icon">
-                    <GoMarkGithub size="38px" color="rgb(0 119 183)"
-                      _hover={{ color: "black" }} /></Box>
+                <Link href='Shubhangi_Saini_Resume.pdf' download="Shubhangi_Saini_Resume.pdf" target='_blank'>
+                  <Box padding={4} className="home-icon" id="resume-button-2">
+                    <Button
+                      id="resume-link-2"
+                      onClick={handleResume} border="1px solid white"
+                      colorScheme="pink" >
+                      Resume
+                    </Button>
+                  </Box>
                 </Link>
-              </Box>
-              <Box ml={"10px"} data-aos="zoom-in"   >
-               <Link  href='Shubhangi_Saini_Resume.pdf' download="Shubhangi_Saini_Resume" target='_blank'>
-                  <Box  padding={4}  className="home-icon" id="resume-button-2">
-                  <Button
-                   id= "resume-link-2"
-                    onClick={handleResume} border="1px solid white"
-                     colorScheme="pink" > 
-                     Resume
-                     </Button>
-                     </Box>
-                     </Link>
-             
+
               </Box>
             </Flex>
           </Center>
@@ -121,9 +121,16 @@ function Home() {
 
         </Box>
       </Flex>
-      <About />
-      <Skills />
-      <Projects />
+      <Box>
+        <About />
+      </Box>
+      <Box>
+        <Skills />
+      </Box>
+      <Box>
+        <Projects />
+      </Box>
+
 
 
       <Box className="react-activity-calendar">
@@ -140,7 +147,7 @@ function Home() {
           </Heading>
         </Box>
 
-        <Flex id="git-stat" flexDirection={{ base: "column", sm: "column", md: "column", lg: "row" }} width="80%" margin="auto"gap={10} >
+        <Flex id="git-stat" flexDirection={{ base: "column", sm: "column", md: "column", lg: "row" }} width="80%" margin="auto" gap={10} >
           <Box margin={"auto"}>
 
             <Image id="github-streak-stats"
@@ -159,7 +166,11 @@ function Home() {
           </Box>
         </Flex>
       </Box>
-      <Contact/>
+      <Box>
+      <Contact />
+      </Box>
+      
+
 
     </Box>
   )

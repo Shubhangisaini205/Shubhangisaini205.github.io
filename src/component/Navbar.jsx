@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import React from "react";
 import "../CSS/navbar.css"
 import { Button } from "@chakra-ui/react";
-import MyResume from "../Assests/Shubhangi_Saini_Resume.pdf"
+
 function NavBar() {
   const [click, setClick] = React.useState(false);
 
@@ -25,7 +25,7 @@ function NavBar() {
         onClick={e => e.stopPropagation()}>
         <div className="logo">
           <NavLink to="/" className="nav-logo">
-            Shubh S
+               SHUBH
             <i className="fa fa-code"></i>
           </NavLink>
           <ul className={click ? "menu active" : "menu"}>
@@ -44,7 +44,7 @@ function NavBar() {
 
                 to="/about"
                 id="about"
-                className="nav-link about"
+                className="nav-link about section"
                 onClick={click ? handleClick : null}
               >
                 About
@@ -87,8 +87,9 @@ function NavBar() {
               <NavLink
                 className="nav-link resume"
                 onClick={click ? handleClick : null}
-              >\
-                <Button id="resume-button-1 resume-link-1" onClick={handleResume} border="1px solid white" colorScheme="pink" download="Shubhangi_Saini_Resume"> Resume</Button>
+                id="resume-button-1"
+              >
+                <Button  id="resume-link-1" onClick={handleResume} border="1px solid white" colorScheme="pink" download="Shubhangi_Saini_Resume"> Resume</Button>
               
               </NavLink>
             </li>

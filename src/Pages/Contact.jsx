@@ -12,7 +12,7 @@ function Contact() {
         AOS.init({ delay: 300 });
     }, [])
     return (
-        <Box mt={"50px"} height={"100vh"} >
+        <Box mt={"50px"} >
             <Heading
                 display={"inline-block"}
                 padding="10px"
@@ -64,16 +64,18 @@ function Contact() {
                     <Text fontWeight={"bold"} fontSize={"22px"} color={"#25cefd"}>🌏 Address</Text>
                     Saharanpur, Uttar Pradesh
                 </Box>
-
             </Flex>
-            <Box>
+            <Box >
                 <Center>
                     <Flex mt={"20px"}>
                         <Box mr={"10px"} data-aos="zoom-in"  >
                             <Link
                                 href="https://www.linkedin.com/in/shubhangi-saini/" target="_blank" >
-                                <Box border="3px solid white" padding={4} borderRadius="50%"
-                                    _hover={{ backgroundColor: "white" }} className="home-icon" id="contact-linkedin">
+                                <Box border="3px solid white"
+                                    padding={4} borderRadius="50%"
+                                    _hover={{ backgroundColor: "white" }}
+                                    className="home-icon"
+                                    id="contact-linkedin">
                                     <Image
 
                                         src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="38px" alt="" /></Box>
@@ -93,6 +95,20 @@ function Contact() {
                 </Center>
 
             </Box>
+            <Box
+        height={10}
+        mt={"50px"}
+        bgGradient='linear(to-r, #25cefd, #FF0080)'
+        color={"white"}
+
+        fontSize={{ base: "80%", sm: "100%", lg: "100%" }}
+        display="flex"
+        alignItems="center"
+        justifyContent={"center"}>
+        <Text fontSize={"20px"}>Made by Shubhangi Saini 💫
+           ❤️
+        </Text>
+      </Box> 
         </Box>
     )
 }

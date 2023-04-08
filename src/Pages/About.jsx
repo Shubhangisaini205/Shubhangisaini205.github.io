@@ -9,7 +9,7 @@ function About() {
     AOS.init({delay:300});
 },[])
   return (
-    <div className='aboutme' >
+    <Box  pt={"50px"}pb={"20px"} id="user-detail-intro">
       <Heading
         display={"inline-block"}
         padding="10px"
@@ -21,11 +21,11 @@ function About() {
         ABOUT ME
       </Heading>
 
-      <Flex flexDirection={{ base: "column", sm: "column", md: "column", lg: "row" }} width={{ base: "90%", sm: "90%", md: "90%", lg: "80%" }} margin={"auto"} gap={20}   >
+      <Flex flexDirection={{ base: "column", sm: "column", md: "column", lg: "row" }} width={{ base: "90%", sm: "90%", md: "90%", lg: "80%" }} margin={"auto"} gap={20}    >
         <Box
           // border={"1px solid white"}
           width="70%" margin="auto" data-aos="fade-right">
-          <Text color={"white"} fontSize={20} >
+          <Text color={"white"} fontSize={20}  >
             Detail-orientated full-stack web developer,who loves tech and passionate
             about developing user-friendly web applications . Team
             player with an eye for detail. An enthusiastic individual with zeal to grow, curious to explore and learn new things and dedicated to company growth and
@@ -40,7 +40,7 @@ function About() {
             borderLeftRadius={"50%"}
             src="https://camo.githubusercontent.com/c1dcb74cc1c1835b1d716f5051499a2814c683c806b15f04b0eba492863703e9/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966" /></Box>
       </Flex>
-    </div>
+    </Box>
   )
 }
 

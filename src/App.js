@@ -9,7 +9,7 @@ import { Box } from '@chakra-ui/react';
 
 function App() {
   return (
-    <Box className="App" fontFamily={"cursive"}>
+    <Box className="App" fontFamily={"cursive"} backgroundColor={"rgb(29, 28, 28)"}>
       <Navbar />
       <AllRoutes />
 

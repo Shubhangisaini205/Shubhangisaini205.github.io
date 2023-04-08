@@ -1,13 +1,13 @@
 .App {
   text-align: center;
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(29, 28, 28);
   
 
 
 }
 
 body{
-  background-color: rgb(12, 12, 12);
+  background-color:rgb(29, 28, 28);
 }
 .App-logo {
   height: 40vmin;
@@ -170,8 +170,6 @@ body{
   transition: 1s ease;
 }
 
-.aboutme{
-background-color: rgb(12, 12, 12);
-}
+
 
 /* contct */
