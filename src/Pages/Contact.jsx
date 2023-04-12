@@ -12,7 +12,7 @@ function Contact() {
         AOS.init({ delay: 300 });
     }, [])
     return (
-        <Box mt={"50px"} >
+        <Box mt={"80px"} pb="5px" id="contact">
             <Heading
                 display={"inline-block"}
                 padding="10px"
@@ -21,6 +21,7 @@ function Contact() {
                 borderRadius={"15px"}
                 className="section_title"
                 data-aos="fade-right"
+                id='contact-heading'
             >
                 CONTACT ME
             </Heading>
@@ -32,6 +33,7 @@ function Contact() {
 
             <Flex width={"90%"} margin={"50px auto 20px auto"} flexDir={{ base: "column", sm: "column", md: "row", lg: "row" }} justifyContent={"center"} gap="20px" align={"center"}>
                 <Box
+                data-aos="fade-right"
                     fontSize="20px"
                     width="285px"
                     borderRadius={"20px"}
@@ -44,6 +46,7 @@ function Contact() {
                     +91 6396765981
                 </Box>
                 <Box
+                data-aos="zoom-in"
                     fontSize="20px"
                     width="285px"
                     color={"white"}
@@ -55,6 +58,7 @@ function Contact() {
 
                 </Box>
                 <Box
+                data-aos="fade-left"
                     fontSize="20px"
                     width="285px"
                     borderRadius={"20px"}
@@ -96,19 +100,18 @@ function Contact() {
 
             </Box>
             <Box
-        height={10}
-        mt={"50px"}
-        bgGradient='linear(to-r, #25cefd, #FF0080)'
-        color={"white"}
-
-        fontSize={{ base: "80%", sm: "100%", lg: "100%" }}
-        display="flex"
-        alignItems="center"
-        justifyContent={"center"}>
-        <Text fontSize={"20px"}>Made by Shubhangi Saini 💫
-           ❤️
-        </Text>
-      </Box> 
+                height={10}
+                mt={"50px"}
+                mb={"50px"}
+                bgGradient='linear(to-r, #25cefd, #FF0080)'
+                color={"white"}
+                fontSize={{ base: "80%", sm: "100%", lg: "100%" }}
+               alignContent={"center"}
+               >
+                <Text fontSize={"20px"}>Made by Shubhangi Saini 💫
+                    ❤️
+                </Text>
+            </Box>
         </Box>
     )
 }

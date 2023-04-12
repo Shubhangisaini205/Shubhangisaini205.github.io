@@ -1,8 +1,9 @@
-import { NavLink } from "react-router-dom";
+// import { a } from "react-router-dom";
 import React from "react";
 import "../CSS/navbar.css"
 import { Button } from "@chakra-ui/react";
-
+// import {Link} from "react-scroll"
+import Shubhangi_Saini_Resume from "../Assests/Shubhangi_Saini_Resume.pdf"
 function NavBar() {
   const [click, setClick] = React.useState(false);
 
@@ -11,87 +12,86 @@ function NavBar() {
 
   function handleResume() {
     window.open("https://drive.google.com/file/d/1mqHsjYvzlyFezTFl6_4TBeEYGGinXJfv/view?usp=share_link");
-  
+
   }
 
   return (
-    <div>
+    <div className="x">
       <div
         className={click ? "main-container" : ""}
         onClick={() => Close()} />
       <nav
-        className="nav-menu"
         id="nav-menu"
+        className="nav-menu"
         onClick={e => e.stopPropagation()}>
         <div className="logo">
-          <NavLink to="/" className="nav-logo">
-               SHUBH
+          <a href="#home" className="nav-logo">
+            SHUBH
             <i className="fa fa-code"></i>
-          </NavLink>
+          </a>
           <ul className={click ? "menu active" : "menu"}>
             <li className="nav-item">
-              <NavLink
-                to="/"
-                id="home"
+              <a
+                href="#home"
+               
                 className="nav-link home"
                 onClick={click ? handleClick : null}
               >
                 Home
-              </NavLink>
+              </a>
             </li>
-            <li className="nav-item">
-              <NavLink
+            <li className="nav-item" >
+              <a
 
-                to="/about"
+              href="#aboutme"
                 id="about"
                 className="nav-link about section"
                 onClick={click ? handleClick : null}
               >
                 About
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink
-
-                to="/skills"
-                id="skills"
+              <a
+                href="#skills"
                 className="nav-link skills"
                 onClick={click ? handleClick : null}
               >
                 Skills
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink
+              <a
 
-                to="/projects"
-                id="projects"
+                href="#projects"
+                
                 className="nav-link projects"
                 onClick={click ? handleClick : null}
               >
                 Projects
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink
+              <a
 
-                to="/contact"
-                id="contact"
+              href="#contact"
+               
                 className="nav-link contact"
                 onClick={click ? handleClick : null}
               >
                 Contact
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink
-                className="nav-link resume"
+              <a
+                href={Shubhangi_Saini_Resume} download={true} target='_blank'
+                className="nav-link resume" id="resume-link-1"
                 onClick={click ? handleClick : null}
-                id="resume-button-1"
+
               >
-                <Button  id="resume-link-1" onClick={handleResume} border="1px solid white" colorScheme="pink" download="Shubhangi_Saini_Resume"> Resume</Button>
-              
-              </NavLink>
+                <Button id="resume-button-1" onClick={handleResume} border="1px solid white" colorScheme="pink"> Resume</Button>
+
+              </a>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
