@@ -1,7 +1,7 @@
 // import { a } from "react-router-dom";
 import React from "react";
 import "../CSS/navbar.css"
-import { Button } from "@chakra-ui/react";
+import { Button, Heading } from "@chakra-ui/react";
 // import {Link} from "react-scroll"
 import Shubhangi_Saini_Resume from "../Assests/Shubhangi_Saini_Resume.pdf"
 function NavBar() {
@@ -42,12 +42,11 @@ function NavBar() {
             </li>
             <li className="nav-item" >
               <a
-
-              href="#aboutme"
-                id="about"
+              href="#about"
                 className="nav-link about section"
                 onClick={click ? handleClick : null}
               >
+               
                 About
               </a>
             </li>
