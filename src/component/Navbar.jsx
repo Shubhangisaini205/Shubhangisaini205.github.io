@@ -1,17 +1,16 @@
 // import { a } from "react-router-dom";
 import React from "react";
 import "../CSS/navbar.css"
-import { Button, Heading } from "@chakra-ui/react";
+import { Button, Heading, useColorMode, useColorModeValue } from "@chakra-ui/react";
 // import {Link} from "react-scroll"
 import Shubhangi_Saini_Resume from "../Assests/Shubhangi_Saini_Resume.pdf"
 function NavBar() {
   const [click, setClick] = React.useState(false);
-
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
 
   function handleResume() {
-    window.open("https://drive.google.com/file/d/1mqHsjYvzlyFezTFl6_4TBeEYGGinXJfv/view?usp=share_link");
+    window.open("https://drive.google.com/file/d/12mUGqd-2co0SbEabIIm0d8veQebDaYX2/view?usp=share_link");
 
   }
 
@@ -81,6 +80,7 @@ function NavBar() {
                 Contact
               </a>
             </li>
+           
             <li className="nav-item">
               <a
                 href={Shubhangi_Saini_Resume} download={true} target='_blank'

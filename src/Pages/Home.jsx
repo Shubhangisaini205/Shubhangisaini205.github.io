@@ -17,7 +17,7 @@ function Home() {
     AOS.init({ delay: 300 });
   }, [])
   function handleResume() {
-    window.open("https://drive.google.com/file/d/1mqHsjYvzlyFezTFl6_4TBeEYGGinXJfv/view?usp=share_link");
+    window.open("https://drive.google.com/file/d/12mUGqd-2co0SbEabIIm0d8veQebDaYX2/view?usp=share_link");
 
   }
 
