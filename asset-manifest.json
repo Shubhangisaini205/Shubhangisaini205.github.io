@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.56ed5c04.css",
-    "main.js": "/static/js/main.d815dde5.js",
+    "main.js": "/static/js/main.752432ba.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/Myglamm.png": "/static/media/Myglamm.b8bc62ff9a805880357d.png",
     "static/media/Outfit.png": "/static/media/Outfit.8d661339fcb5eb3034d2.png",
     "static/media/MyPhoto.jpg": "/static/media/MyPhoto.cf9d0a058270889addbd.jpg",
-    "static/media/Shubhangi_Saini_Resume.pdf": "/static/media/Shubhangi_Saini_Resume.6c23756efae2c933df57.pdf",
+    "static/media/Shubhangi_Saini_Resume.pdf": "/static/media/Shubhangi_Saini_Resume.62fc53bbf147ceba7050.pdf",
     "static/media/react1.png": "/static/media/react1.07d9e407d4e491c548d5.png",
     "static/media/vscode.png": "/static/media/vscode.d793c746fbc937f66e3d.png",
     "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
@@ -17,11 +17,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.56ed5c04.css.map": "/static/css/main.56ed5c04.css.map",
-    "main.d815dde5.js.map": "/static/js/main.d815dde5.js.map",
+    "main.752432ba.js.map": "/static/js/main.752432ba.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56ed5c04.css",
-    "static/js/main.d815dde5.js"
+    "static/js/main.752432ba.js"
   ]
 }
